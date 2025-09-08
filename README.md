@@ -166,3 +166,24 @@ overall progress: rolling back update: 5 out of 5 tasks
 5/5: running   [==================================================>] 
 verify: Service nginx converged 
 ```
+
+
+## STACK. -- swarm stack --
+
+### DEPLOY
+
+`docker stack deploy` deploy a service
+
+`docker stack deploy -c compose.yml swarm_tutorial`
+
+deploy, compose file, name of the stack
+
+**First creation output**
+
+```
+1/5: running   [==================================================>] 
+2/5: running   [==================================================>] 
+3/5: running   [==================================================>] 
+4/5: running   [==================================================>] 
+5/5: running   [==================================================>] 
+```
